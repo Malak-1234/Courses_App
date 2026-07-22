@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ForgetPassword</string>
+    <string name="login_title">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="email_req">Email is Required</string>
+    <string name="dont_have_account">Dont have an account?</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="sign_up_title">Sign Up</string>
+
+
+    <string name="sign_up_name">Name</string>
+    <string name="sign_up_phone">Phone</string>
+
+    <string name="error_name">Name is required</string>
+    <string name="send_otp">Send OTP</string>
+
+    <string name="back_to_login">Back To Login</string>
+    <string name="home_navigation">home</string>
+
+    <string name="have_acc">Already have an account</string>
+    <string name="log_in">Log In</string>
+
+    <string name="new_pass">Reset Password</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="otp_error">Please enter full 6-digit code</string>
+    <string name="enter_otp_code">Enter OTP Code</string>
+    <string name="we_sent_you">We sent a 6-digit code to your email</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="img_content_description">Splash Icon</string>
+    <string name="splash_title">Student App</string>
+
+    <string name="home_welcome">Welcome</string>
+    <string name="special_offers">Special Offers</string>
+
+    <string name="discount">50% OFF on all courses!</string>
+
+    <string name="prog_lang">Programming Languages</string>
+
+    <string name="courses">Courses</string>
+
+
+</resources>
