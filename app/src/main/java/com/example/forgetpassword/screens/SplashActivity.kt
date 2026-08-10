@@ -35,7 +35,14 @@ class SplashActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            SplashScreen { }
+            SplashScreen (
+                onTimeout = {
+                    val intent = Intent(this@SplashActivity, MainActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                    overridePendingTransition(0, 0)
+                }
+            )
         }
     }
 }

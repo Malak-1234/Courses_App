@@ -1,5 +1,8 @@
 package com.example.forgetpassword.screens
 
+
+import com.example.forgetpassword.R
+import androidx.compose.ui.res.stringResource
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
@@ -31,7 +34,7 @@ fun NewPasswordScreen(
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            text = "Reset Password",
+            text = stringResource(id = R.string.reset_password),
             fontSize = 28.sp,
             fontWeight = FontWeight.Bold
         )
@@ -44,7 +47,7 @@ fun NewPasswordScreen(
                 newPassword = it
                 newPasswordError = null
             },
-            label = "New Password",
+            label = stringResource(id = R.string.new_pass),
             modifier = Modifier.fillMaxWidth(),
             error = newPasswordError,
             isPassword = true
@@ -58,7 +61,7 @@ fun NewPasswordScreen(
                 confirmPassword = it
                 confirmPasswordError = null
             },
-            label = "Confirm New Password",
+            label = stringResource(id = R.string.confirm_new_pass),
             modifier = Modifier.fillMaxWidth(),
             error = confirmPasswordError,
             isPassword = true
@@ -67,7 +70,7 @@ fun NewPasswordScreen(
         Spacer(modifier = Modifier.height(25.dp))
 
         CustomButton(
-            text = "Confirm",
+            text = stringResource(id = R.string.confirm),
             onClick = {
                 newPasswordError = null
                 confirmPasswordError = null
